@@ -4,7 +4,7 @@
 Hit button: adds one more card to your deck\
 Stand button: don't add any more cards\
 Score tracker(bottom right): keeps track of wins and losses\
-Cards: the numbers on the cards represent the amount of points each card has\
+Cards: the numbers on the cards represent the amount of points each card has
 ## How to install
 Step 1) open terminal\
 Step 2) clone repository using command "git clone"\
