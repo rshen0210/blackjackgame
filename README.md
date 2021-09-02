@@ -1,5 +1,5 @@
 ===
-<img src="https://github.com/rshen0210/blackjackgame/blob/main/Blackjacklogo.png" width=600>
+<img src="https://github.com/rshen0210/blackjackgame/blob/main/Blackjacklogo.png" width=1200>
 ## Overview
   This is a game of BlackJack. The buttons included in this game are "hit", "stand", and "score". The goal of this game is to get the highest score possible without passing 21 before the computer does. If you get a score of "22" or higher, you automatically lose the round. If you get a lower score than the computer, you also lose the round. The win and loss board will keep track of your total wins and losses. 
 ## Game UI
