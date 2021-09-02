@@ -8,8 +8,8 @@
 * Score tracker(bottom right): keeps track of wins and losses
 * Cards: the numbers on the cards represent the amount of points each card has
 ## How to install
-Step 1) open terminal
-Step 2) clone repository using command "git clone"
-Step 3) install python(if not yet already installed)
-Step 4) run the game using the command "python blackjack.py"
+Step 1) open terminal\
+Step 2) clone repository using command "git clone"\
+Step 3) install python(if not yet already installed)\
+Step 4) run the game using the command "python blackjack.py"\
 <img src="http://g.recordit.co/SJUzVzHbIK.gif" height=640 width=800><br>
