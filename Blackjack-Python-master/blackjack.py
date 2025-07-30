@@ -21,7 +21,7 @@ diamond3 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/re
 club3 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/3c.png')
 heart3 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/3h.png')
 spade3 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/3s.png')
-diamond4 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/esources/cards/4d.png')
+diamond4 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/4d.png')
 club4 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/4c.png')
 heart4 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/4h.png')
 spade4 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/4s.png')
@@ -41,7 +41,7 @@ diamond8 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/re
 club8 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/8c.png')
 heart8 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/8h.png')
 spade8 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/8s.png')
-diamond9 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/esources/cards/9d.png')
+diamond9 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/9d.png')
 club9 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/9c.png')
 heart9 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/9h.png')
 spade9 = pygame.image.load('/Users/RyanShen/Desktop/Blackjack-Python-master/resources/cards/9s.png')
@@ -121,7 +121,7 @@ E.g. Ace is default 11. 10/Jack/Queen/King is 10.'''
     elif card in card10:
         return 10
     else:
-        print 'getAmt broke'
+        print ('getAmt broke')
         exit()
 
 def genCard(cList, xList):
@@ -200,7 +200,7 @@ def main():
                 card, cA = genCard(ccards, userCard)
                 userA += cA
                 userSum += getAmt(card)
-                print 'User: %i' % userSum
+                print ('User: %i' % userSum)
                 while userSum > 21 and userA > 0:
                     userA -= 1
                     userSum -= 10
@@ -211,7 +211,7 @@ def main():
                     card, cA = genCard(ccards, dealCard)
                     dealA += cA
                     dealSum += getAmt(card)
-                    print 'Dealer: %i' % dealSum
+                    print ('Dealer: %i' % dealSum)
                     while dealSum > 21 and dealA > 0:
                         dealA -= 1
                         dealSum -= 10
